@@ -566,31 +566,31 @@
     ];
 
     const USUARIOS = {
-      "HBI-BV": {
+      "HBI02": {
         password: "gsd123",
         nombre: "Guardia HBI Buena Vista",
         rol: "Guardia",
         formularios: ["HBI_BUENA_VISTA"]
       },
-      "HBI-CH": {
+      "HBICH": {
         password: "gsd1020",
         nombre: "Guardia HBI Choloma",
         rol: "Guardia",
         formularios: ["HBI_CHOLOMA"]
       },
-      "HAN-PTC": {
+      "HANPTC": {
         password: "gsd-1014",
         nombre: "Guardia HANIL",
         rol: "Guardia",
         formularios: ["HANIL"]
       },
-      "RONDIN-RN": {
+      "RONDINRN": {
         password: "gsd1024",
         nombre: "Guardia Río Nance",
         rol: "Guardia",
         formularios: ["RIO_NANCE"]
       },
-      "SAT-SJ": {
+      "SATSJ": {
         password: "gsd2030",
         nombre: "Guardia San Antonio",
         rol: "Guardia",
@@ -706,7 +706,7 @@
       }
 
       if (user.password !== passwordInputValue) {
-        return { ok: false, mensaje: "Contraseña incorrecta." };
+        return { ok: false, mensaje: "Contraseña incorrecta, fijate PENDEJO." };
       }
 
       if (!user.formularios || user.formularios.length === 0) {
