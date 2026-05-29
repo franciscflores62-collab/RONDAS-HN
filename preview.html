@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>GSD Servicios</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F5F7FB;
+    min-height:100vh;
+    color:#111827;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+    padding:30px 25px 10px;
+}
+
+.header h1{
+    font-size:36px;
+    font-weight:700;
+}
+
+/* ================= GRID ================= */
+
+.grid{
+    padding:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:22px;
+}
+
+/* ================= CARD ================= */
+
+.card{
+    background:#EEF2F8;
+    border-radius:28px;
+    padding:22px;
+    min-height:200px;
+    position:relative;
+    cursor:pointer;
+    transition:.25s;
+    overflow:hidden;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.icon-box{
+    width:78px;
+    height:78px;
+    border-radius:22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:38px;
+    color:white;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    margin-bottom:25px;
+}
+
+/* ================= COLORES ================= */
+
+.blue{
+    background:#163D77;
+}
+
+.green{
+    background:#2DBE4E;
+}
+
+.red{
+    background:#E34234;
+}
+
+.yellow{
+    background:#E2B316;
+}
+
+/* ================= TEXTOS ================= */
+
+.card-title{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.card-desc{
+    font-size:15px;
+    line-height:1.5;
+    color:#5B6472;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:700px){
+
+    .grid{
+        grid-template-columns:1fr 1fr;
+        gap:18px;
+    }
+
+    .card{
+        min-height:180px;
+        padding:18px;
+    }
+
+    .icon-box{
+        width:68px;
+        height:68px;
+        font-size:32px;
+    }
+
+    .card-title{
+        font-size:18px;
+    }
+
+    .card-desc{
+        font-size:14px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<div class="header">
+
+    <h1>Acciones</h1>
+
+</div>
+
+<!-- ================= SERVICIOS ================= -->
+
+<div class="grid">
+
+    <!-- RONDAS -->
+
+    <div class="card" onclick="abrirServicio('Rondas')">
+
+        <div class="icon-box blue">
+            🛡️
+        </div>
+
+        <div class="card-title">
+            Rondas
+        </div>
+
+        <div class="card-desc">
+            Comienza tus rondas de seguridad
+        </div>
+
+    </div>
+
+    <!-- INSPECCIONES -->
+
+    <div class="card" onclick="abrirServicio('Inspecciones')">
+
+        <div class="icon-box red">
+            📋
+        </div>
+
+        <div class="card-title">
+            Inspecciones
+        </div>
+
+        <div class="card-desc">
+            Realiza inspecciones y auditorías
+        </div>
+
+    </div>
+
+    <!-- SOLICITUD DE VIDEOS -->
+
+    <div class="card" onclick="abrirServicio('Solicitud de Videos')">
+
+        <div class="icon-box green">
+            🎥
+        </div>
+
+        <div class="card-title">
+            Videos
+        </div>
+
+        <div class="card-desc">
+            Solicita grabaciones y evidencias
+        </div>
+
+    </div>
+
+    <!-- SOLICITUD DE CARNETS -->
+
+    <div class="card" onclick="abrirServicio('Solicitud de Carnets')">
+
+        <div class="icon-box yellow">
+            🪪
+        </div>
+
+        <div class="card-title">
+            Carnets
+        </div>
+
+        <div class="card-desc">
+            Solicita emisión de carnets
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+/* ================= SERVICIOS ================= */
+
+function abrirServicio(servicio){
+
+    alert(
+        "Abrir servicio:\n\n" + servicio
+    );
+
+    /*
+        AQUÍ PUEDES:
+
+        - abrir formularios
+        - redireccionar
+        - abrir iframes
+        - validar usuarios
+        - abrir módulos
+
+    */
+
+}
+
+</script>
+
+</body>
+</html>
