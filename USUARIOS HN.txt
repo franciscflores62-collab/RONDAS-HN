@@ -1,0 +1,35 @@
+usuario: HBI02
+Contraseña: gsd123
+asignar el formulario de HBI BUENA VISTA
+
+Usuario: HBICH
+Contraseña: gsd1020
+asignar el formulario de HBI CHOLOMA
+
+Usuario: HANPTC
+Contraseña: gsd-1014
+asignar el formulario de HANIL
+
+Usuario: RONDINRN
+Contraseña: gsd1024
+asignar el formulario de RIO NANCE
+
+usuario: SATSJ
+Contraseña: gsd2030
+agregar el formulario de SAN ANTONIO
+
+usuario: AKH
+contraseña: gsd2010
+asignar el formulario de ULUATEX
+
+usuario: VILLANUEVA
+Contraseña: gsd2563
+asignar el formulario de VILLANUEVA
+
+usuario: AMERICA
+contraseña: gsd1515
+asignar el formulario de ZOLI AMERICA
+
+
+
+
